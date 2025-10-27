@@ -9,13 +9,26 @@
         integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
     <title>Showcase</title>
     <link href="https://fonts.googleapis.com/css2?family=Rethink+Sans:wght@400;700;800&display=swap" rel="stylesheet">
-
 </head>
 
 <body>
     <style>
         * {
             font-family: 'Rethink Sans', sans-serif !important;
+        }
+
+        html,
+        body {
+            height: 100%;
+        }
+
+        body {
+            display: flex;
+            flex-direction: column;
+        }
+
+        footer {
+            margin-top: auto;
         }
     </style>
 
@@ -34,7 +47,7 @@
                         <a class="nav-link text-secondary" href="#">Variations</a>
                     </li>
                     <li class="nav-item mx-3">
-                        <a class="nav-link text-secondary" href="#">What You’ll Love</a>
+                        <a class="nav-link text-secondary" href="#">What You'll Love</a>
                     </li>
                     <li class="nav-item mx-3">
                         <a class="nav-link text-secondary" href="#">Quick Specs</a>
@@ -43,6 +56,7 @@
             </div>
         </div>
     </nav>
+
     <div class="container mt-4">
         <img src="assets/images/garminlogo.svg" alt="Garmin Logo" class="mx-auto d-block" style="width: 80px;">
         <h1 class="text-center text-dark"
@@ -61,9 +75,10 @@
             </div>
         </div>
     </div>
+
     <div class="card text-bg-dark border-0 rounded-0">
-        <img src="assets/images/whoislilycrop1.jpeg" class="card-img d-none d-md-block" alt="Who is Lily?">
-        <img src="assets/images/whoislilyforsmallcreencrop1.png" class="card-img d-block d-sm-block d-md-none"
+        <img src="assets/images/whoislilycrop1.jpeg" class="card-img d-none d-md-block rounded-0" alt="Who is Lily?">
+        <img src="assets/images/whoislilyforsmallcreencrop1.png" class="card-img d-block d-sm-block d-md-none rounded-0"
             alt="Who is Lily?">
         <div class="card-img-overlay ps-3 ps-md-5 ms-3 ms-md-5 rounded-0 d-flex flex-column justify-content-end 
         justify-content-md-start align-items-center align-items-md-start text-center text-md-start pb-4 pb-md-0">
@@ -73,12 +88,13 @@
             <p class="card-text text-white lily-text fs-6 fs-sm-4 fs-md-3 fs-lg-1">The small, stylish smartwatch.</p>
         </div>
     </div>
-    </div>
+    
     <div class="container my-5">
         <div class="row g-4 align-items-stretch justify-content-center">
             <div class="col-12 col-md-8 col-lg-5">
                 <div class="card text-bg-dark border-0 rounded-4 overflow-hidden h-100 position-relative">
-                    <img src="assets/images/sporty.jpeg" class="card-img h-100" alt="Sophisticated & Sporty" style="object-fit: cover;">
+                    <img src="assets/images/sporty.jpeg" class="card-img h-100" alt="Sophisticated & Sporty"
+                        style="object-fit: cover;">
                     <div class="card-img-overlay d-flex flex-column justify-content-start align-items-end text-end p-4">
                         <h3 class="card-title text-uppercase mb-2 fs-1" style="font-weight: 800; font-stretch: 110%;">
                             Sophisticated<br> & Sporty
@@ -90,15 +106,17 @@
                 </div>
             </div>
             <div class="col-12 col-md-8 col-lg-5 d-flex flex-column justify-content-between gap-3">
-                <div class="card border-0 rounded-4 text-white overflow-hidden flex-fill" style="background-color: #4a4a4a;">
+                <div class="card border-0 rounded-4 text-white overflow-hidden flex-fill"
+                    style="background-color: #4a4a4a;">
                     <div class="row g-0 h-100">
                         <div class="col-5 h-100">
                             <img src="assets/images/classicandconnected.png" class="w-100 h-100 rounded-start-4"
-                            style="object-fit: cover;" alt="Classic & Connected">
+                                style="object-fit: cover;" alt="Classic & Connected">
                         </div>
                         <div class="col-7 h-100 d-flex align-items-center">
                             <div class="card-body p-3 text-end">
-                                <h5 class="card-title text-uppercase mb-0 fs-3" style="font-weight: 800; font-stretch: 110%;">
+                                <h5 class="card-title text-uppercase mb-0 fs-3"
+                                    style="font-weight: 800; font-stretch: 110%;">
                                     Classic & Connected
                                 </h5>
                                 <p class="card-text mb-2" style="font-size: 10px;">
@@ -109,11 +127,12 @@
                         </div>
                     </div>
                 </div>
-                <div class="card border-0 rounded-4 text-dark overflow-hidden flex-fill"
+                <div class="card border-0 rounded-4 text-dark overflow-hidden flex-fill rounded-0"
                     style="background-color: #959595;">
                     <div class="row g-0 h-100 flex-row-reverse">
                         <div class="col-5 h-100">
-                            <img src="assets/images/activeandalluring.png" class="w-100 h-100 rounded-end-4"style="object-fit: cover;" alt="Active & Alluring">
+                            <img src="assets/images/activeandalluring.png" class="w-100 h-100 rounded-end-4"
+                                style="object-fit: cover;" alt="Active & Alluring">
                         </div>
                         <div class="col-7 h-100 d-flex align-items-center">
                             <div class="card-body p-3">
@@ -131,29 +150,172 @@
             </div>
         </div>
     </div>
+
+   <div class="card text-bg-dark border-0 rounded-0">
+        <img src="assets/images/trendy.png" class="card-img d-none d-md-block rounded-0" alt="Who is Lily?">
+        <img src="assets/images/trendysmall.jpeg" class="card-img d-block d-sm-block d-md-none rounded-0"
+            alt="Who is Lily?">
+
+        <div
+            class="card-img-overlay d-flex flex-column justify-content-end align-items-start text-start ps-4 ps-md-5 pb-4 pb-md-5">
+            <h1 class="card-title text-dark lh-1 lily-title" style="font-weight:800; font-stretch:110%;">
+                TRENDY &amp; <br> TIMELESS
+            </h1>
+            <p class="card-text text-dark lily-text mb-0">
+                Get a more complete picture of <br>your health with up to 9 days of battery life
+            </p>
+        </div>
+    </div>
+
+
     <div class="card text-bg-dark border-0 rounded-0">
-        <img src="assets/images/haute.png" class="card-img d-none d-md-block" alt="Who is Lily?">
-        <img src="assets/images/hautesmall.png" class="card-img d-block d-sm-block d-md-none" alt="Who is Lily?">
+        <img src="assets/images/haute.png" class="card-img d-none d-md-block rounded-0" alt="Who is Lily?">
+        <img src="assets/images/hautesmall.png" class="card-img d-block d-sm-block d-md-none rounded-0"
+            alt="Who is Lily?">
         <div
             class="card-img-overlay d-flex flex-column justify-content-start justify-content-md-end align-items-center text-center px-3 pt-4 pt-md-0 pb-md-4">
             <h1 class="card-title text-white lh-1 mt-4 mt-md-2 lily-title" style="font-weight:800; font-stretch:110%;">
                 HAUTE & HEALTHY</h1>
             <p class="card-text text-white lily-text mb-5 mt-md-0">HEART RATE, SLEEP SCORE, BODY BATTERY ENERGY
-                MONITORING AND WOMEN'S HEALTH</p>
+                MONITORING AND WOMEN'S HEALTH</p>
         </div>
     </div>
+    
+ 
+
+    <div class="container my-5">
+        <h1 class="text-center text-dark"
+            style="font-weight: 800; line-height: 1.05; margin-top: 8px; font-size: 72px;"> Attractive Colors</h1>
+        <p class="text-center">Choose a subtle, stylish hue for your Garmin Lily 2 Active.</p>
+
+        <div id="carousel" class="carousel slide mx-auto" data-bs-ride="carousel" style="max-width:700px;">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carousel" data-bs-slide-to="0" class="active" aria-current="true"
+                    aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+
+            <div class="carousel-inner text-center text-dark">
+                <div class="carousel-item active">
+                    <img src="assets/images/jaspergreen.png" class="d-block w-100 mx-auto" alt="Jasper Green"
+                        style="height:300px; object-fit:contain; background-color:#f8f9fa;">
+                    <div class="mt-3">
+                        <h5 class="fw-bold">Jasper Green</h5>
+                        <p class="mb-0">Jasper Green with Jasper Green Silicone Band.</p>
+                    </div>
+                </div>
+
+                <div class="carousel-item">
+                    <img src="assets/images/jasminepurple.png" class="d-block w-100 mx-auto" alt="Jasmine Purple"
+                        style="height:300px; object-fit:contain; background-color:#f8f9fa;">
+                    <div class="mt-3">
+                        <h5 class="fw-bold">Jasmine Purple</h5>
+                        <p class="mb-0">Silver with Purple Jasmine Silicone Band.</p>
+                    </div>
+                </div>
+
+                <div class="carousel-item">
+                    <img src="assets/images/lunargold.png" class="d-block w-100 mx-auto" alt="Lunar Gold"
+                        style="height:300px; object-fit:contain; background-color:#f8f9fa;">
+                    <div class="mt-3">
+                        <h5 class="fw-bold">Lunar Gold</h5>
+                        <p class="mb-0">Lunar Gold with Bone Silicone Band.</p>
+                    </div>
+                </div>
+            </div>
+
+            <button class="carousel-control-prev" type="button" data-bs-target="#carousel" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"
+                    style="filter: invert(60%) sepia(0%) saturate(0%) hue-rotate(0deg) brightness(90%);"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carousel" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"
+                    style="filter: invert(60%) sepia(0%) saturate(0%) hue-rotate(0deg) brightness(90%);"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
     </div>
+
+    <div class="container mb-2">
+        <h1 class="text-center text-dark" style="font-weight: 800; font-size: 72px;">What you'll love</h1>
+        <p class="text-center">with Garmin’s Lily 2 Active.</p>
+
+        <div class="row justify-content-center g-4">
+            <div class="col-10 col-sm-6 col-md-4 col-lg-3 col-xl-2">
+                <div class="card border-0 rounded-4 h-100" style="background-color: #D9D9D9;">
+                    <img src="assets/images/small.png" class="card-img-top" alt="Small Stylish Design">
+                    <div class="card-body text-center">
+                        <h3 class="card-title fs-5 fs-lg-6 fw-bold">SMALL, STYLISH DESIGN</h3>
+                        <p class="card-text small">With a quick tap or wrist turn, the Lily 2 Active smartwatch reveals
+                            a bright display. You can even mix and match cases and bands to make Lily all your own.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-10 col-sm-6 col-md-4 col-lg-3 col-xl-2">
+                <div class="card border-0 rounded-4 h-100" style="background-color: #D9D9D9;">
+                    <img src="assets/images/built.png" class="card-img-top" alt="Built-in GPS">
+                    <div class="card-body text-center">
+                        <h3 class="card-title fs-5 fs-lg-6 fw-bold">BUILT-IN GPS TRACKING</h3>
+                        <p class="card-text small">No matter where your workout takes you, accurately track your outdoor
+                            activities, including walks, runs and more — without compromising style.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-10 col-sm-6 col-md-4 col-lg-3 col-xl-2">
+                <div class="card border-0 rounded-4 h-100" style="background-color: #D9D9D9;">
+                    <img src="assets/images/body.png" class="card-img-top" alt="Body Battery Energy Monitoring">
+                    <div class="card-body text-center">
+                        <h3 class="card-title fs-5 fs-lg-6 fw-bold">BODY BATTERY MONITORING</h3>
+                        <p class="card-text small">See your energy levels throughout the day so you’ll know when your
+                            body is charged up and ready for activity or drained and needing to recharge with restful
+                            sleep.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-10 col-sm-6 col-md-4 col-lg-3 col-xl-2">
+                <div class="card border-0 rounded-4 h-100" style="background-color: #D9D9D9;">
+                    <img src="assets/images/sleep.png" class="card-img-top" alt="Sleep Score">
+                    <div class="card-body text-center">
+                        <h3 class="card-title fs-5 fs-lg-6 fw-bold">SLEEP SCORE INSIGHTS</h3>
+                        <p class="card-text small">Get a score for your sleep’s quality and insights on how you can do
+                            better. Even keep track of the different sleep stages as well as heart rate, stress, Pulse
+                            Ox and respiration.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-10 col-sm-6 col-md-4 col-lg-3 col-xl-2">
+                <div class="card border-0 rounded-4 h-100" style="background-color: #D9D9D9;">
+                    <img src="assets/images/fitness.png" class="card-img-top" alt="Fitness Tracking and Sports Apps">
+                    <div class="card-body text-center">
+                        <h3 class="card-title fs-5 fs-lg-6 fw-bold">FITNESS TRACKING AND SPORTS APPS</h3>
+                        <p class="card-text small">Switch up your workout with even more built-in sports apps for
+                            cardio, yoga, tennis, golf, dance fitness, strength training and more.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <footer class="bg-light text-center border-top py-4 mt-auto w-100">
+        <div class="container">
+            <h6 class="fw-bold mb-1">Garmin Lily 2 - Active</h6>
+            <p class="text-muted small mb-0">
+                Disclaimer: All images, videos, and product information on this page are sourced from Garmin's official
+                website.
+            </p>
+        </div>
+    </footer>
+
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
         crossorigin="anonymous"></script>
 </body>
-<footer class="bg-light py-4 text-center border-top">
-    <div class="container">
-        <h6 class="fw-bold mb-1"> Garmin Lily 2 - Active</h6>
-        <p class=" fs-7 text-muted small">
-            Disclaimer: All images, videos, and product information on this page are sourced from Garmin’s official
-            website.
-        </p>
-    </div>
-</footer>
+
 </html>
