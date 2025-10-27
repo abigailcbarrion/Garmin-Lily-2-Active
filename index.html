@@ -32,7 +32,7 @@
         }
     </style>
 
-    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+    <nav class="navbar navbar-expand-lg bg-body-tertiary sticky-top">
         <div class="container-fluid">
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
                 aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -41,23 +41,20 @@
             <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
                 <ul class="nav nav-underline gap-5">
                     <li class="nav-item mx-3">
-                        <a class="nav-link active text-dark" aria-current="page" href="#">Overview</a>
+                        <a class="nav-link active text-dark" href="#overview">Overview</a>
                     </li>
                     <li class="nav-item mx-3">
-                        <a class="nav-link text-secondary" href="#">Variations</a>
+                        <a class="nav-link text-secondary" href="#whatyoulove">What You'll Love</a>
                     </li>
                     <li class="nav-item mx-3">
-                        <a class="nav-link text-secondary" href="#">What You'll Love</a>
-                    </li>
-                    <li class="nav-item mx-3">
-                        <a class="nav-link text-secondary" href="#">Quick Specs</a>
+                        <a class="nav-link text-secondary" href="#specs">Specs</a>
                     </li>
                 </ul>
             </div>
         </div>
     </nav>
 
-    <div class="container mt-4">
+    <div id="overview" class="container mt-4">
         <img src="assets/images/garminlogo.svg" alt="Garmin Logo" class="mx-auto d-block" style="width: 80px;">
         <h1 class="text-center text-dark"
             style="font-weight: 800; line-height: 1.05; margin-top: 8px; font-size: 72px;"> Lily 2 Active</h1>
@@ -67,7 +64,7 @@
         </div>
         <img src="assets/images/3in1.jpeg" alt="Garmin Lily 2 Active Small"
             class="mx-auto d-block img-fluid d-block d-md-none">
-        <div class="container-fluid my-4">
+        <div class="container-fluid my-4 mx-auto">
             <div class="d-flex justify-content-center gap-5 fw-bold text-dark ">
                 <span class="mx-5">Small</span>
                 <span class="mx-5">Stylish</span>
@@ -88,7 +85,7 @@
             <p class="card-text text-white lily-text fs-6 fs-sm-4 fs-md-3 fs-lg-1">The small, stylish smartwatch.</p>
         </div>
     </div>
-    
+
     <div class="container my-5">
         <div class="row g-4 align-items-stretch justify-content-center">
             <div class="col-12 col-md-8 col-lg-5">
@@ -151,7 +148,7 @@
         </div>
     </div>
 
-   <div class="card text-bg-dark border-0 rounded-0">
+    <div class="card text-bg-dark border-0 rounded-0">
         <img src="assets/images/trendy.png" class="card-img d-none d-md-block rounded-0" alt="Who is Lily?">
         <img src="assets/images/trendysmall.jpeg" class="card-img d-block d-sm-block d-md-none rounded-0"
             alt="Who is Lily?">
@@ -167,7 +164,6 @@
         </div>
     </div>
 
-
     <div class="card text-bg-dark border-0 rounded-0">
         <img src="assets/images/haute.png" class="card-img d-none d-md-block rounded-0" alt="Who is Lily?">
         <img src="assets/images/hautesmall.png" class="card-img d-block d-sm-block d-md-none rounded-0"
@@ -180,12 +176,10 @@
                 MONITORING AND WOMEN'S HEALTH</p>
         </div>
     </div>
-    
- 
 
     <div class="container my-5">
         <h1 class="text-center text-dark"
-            style="font-weight: 800; line-height: 1.05; margin-top: 8px; font-size: 72px;"> Attractive Colors</h1>
+            style="font-weight: 800; line-height: 1.05; margin-top: 8px; font-size: 64px;"> Attractive Colors</h1>
         <p class="text-center">Choose a subtle, stylish hue for your Garmin Lily 2 Active.</p>
 
         <div id="carousel" class="carousel slide mx-auto" data-bs-ride="carousel" style="max-width:700px;">
@@ -199,7 +193,7 @@
             <div class="carousel-inner text-center text-dark">
                 <div class="carousel-item active">
                     <img src="assets/images/jaspergreen.png" class="d-block w-100 mx-auto" alt="Jasper Green"
-                        style="height:300px; object-fit:contain; background-color:#f8f9fa;">
+                        style="height: 400px; object-fit:contain; background-color:#f8f9fa;">
                     <div class="mt-3">
                         <h5 class="fw-bold">Jasper Green</h5>
                         <p class="mb-0">Jasper Green with Jasper Green Silicone Band.</p>
@@ -208,7 +202,7 @@
 
                 <div class="carousel-item">
                     <img src="assets/images/jasminepurple.png" class="d-block w-100 mx-auto" alt="Jasmine Purple"
-                        style="height:300px; object-fit:contain; background-color:#f8f9fa;">
+                        style="height:400px; object-fit:contain; background-color:#f8f9fa;">
                     <div class="mt-3">
                         <h5 class="fw-bold">Jasmine Purple</h5>
                         <p class="mb-0">Silver with Purple Jasmine Silicone Band.</p>
@@ -217,7 +211,7 @@
 
                 <div class="carousel-item">
                     <img src="assets/images/lunargold.png" class="d-block w-100 mx-auto" alt="Lunar Gold"
-                        style="height:300px; object-fit:contain; background-color:#f8f9fa;">
+                        style="height:400px; object-fit:contain; background-color:#f8f9fa;">
                     <div class="mt-3">
                         <h5 class="fw-bold">Lunar Gold</h5>
                         <p class="mb-0">Lunar Gold with Bone Silicone Band.</p>
@@ -238,12 +232,12 @@
         </div>
     </div>
 
-    <div class="container mb-2">
-        <h1 class="text-center text-dark" style="font-weight: 800; font-size: 72px;">What you'll love</h1>
+    <div id="whatyoulove" class="container mb-2">
+        <h1 class="text-center text-dark" style="font-weight: 800; font-size: 64px;">What you'll love</h1>
         <p class="text-center">with Garmin’s Lily 2 Active.</p>
 
         <div class="row justify-content-center g-4">
-            <div class="col-10 col-sm-6 col-md-4 col-lg-3 col-xl-2">
+            <div class="col-10 col-sm-6 col-md-4 col-lg-4 col-xl-4" style="max-width: 400px;">
                 <div class="card border-0 rounded-4 h-100" style="background-color: #D9D9D9;">
                     <img src="assets/images/small.png" class="card-img-top" alt="Small Stylish Design">
                     <div class="card-body text-center">
@@ -254,7 +248,7 @@
                 </div>
             </div>
 
-            <div class="col-10 col-sm-6 col-md-4 col-lg-3 col-xl-2">
+            <div class="col-10 col-sm-6 col-md-4 col-lg-4 col-xl-4" style="max-width: 400px;">
                 <div class="card border-0 rounded-4 h-100" style="background-color: #D9D9D9;">
                     <img src="assets/images/built.png" class="card-img-top" alt="Built-in GPS">
                     <div class="card-body text-center">
@@ -265,7 +259,7 @@
                 </div>
             </div>
 
-            <div class="col-10 col-sm-6 col-md-4 col-lg-3 col-xl-2">
+            <div class="col-10 col-sm-6 col-md-4 col-lg-4 col-xl-4" style="max-width: 400px;">
                 <div class="card border-0 rounded-4 h-100" style="background-color: #D9D9D9;">
                     <img src="assets/images/body.png" class="card-img-top" alt="Body Battery Energy Monitoring">
                     <div class="card-body text-center">
@@ -277,7 +271,7 @@
                 </div>
             </div>
 
-            <div class="col-10 col-sm-6 col-md-4 col-lg-3 col-xl-2">
+            <div class="col-10 col-sm-6 col-md-4 col-lg-4 col-xl-4" style="max-width: 400px;">
                 <div class="card border-0 rounded-4 h-100" style="background-color: #D9D9D9;">
                     <img src="assets/images/sleep.png" class="card-img-top" alt="Sleep Score">
                     <div class="card-body text-center">
@@ -289,7 +283,7 @@
                 </div>
             </div>
 
-            <div class="col-10 col-sm-6 col-md-4 col-lg-3 col-xl-2">
+            <div class="col-10 col-sm-6 col-md-4 col-lg-4 col-xl-4">
                 <div class="card border-0 rounded-4 h-100" style="background-color: #D9D9D9;">
                     <img src="assets/images/fitness.png" class="card-img-top" alt="Fitness Tracking and Sports Apps">
                     <div class="card-body text-center">
@@ -302,6 +296,124 @@
         </div>
     </div>
 
+    <div id="specs" class="container my-5">
+        <h1 class="text-center text-dark" style="font-weight: 800; font-size: 64px;">Specifications</h1>
+
+    </div>
+    <div class="d-flex justify-content-center align-items-start" style="background-color: #fff;">
+        <div class="accordion accordion-flush" id="accordionSpecs" style="width: 700px;">
+            <div class="accordion-item mb-3">
+                <h2 class="accordion-header">
+                    <button class="accordion-button collapsed fw-bold" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#generalSpecs" aria-expanded="false" aria-controls="generalSpecs">
+                        General
+                    </button>
+                </h2>
+                <div id="generalSpecs" class="accordion-collapse collapse" data-bs-parent="#accordionSpecs">
+                    <div class="accordion-body p-0">
+                        <table class="table table-borderless mb-0">
+                            <tbody>
+                                <tr>
+                                    <td><strong>Strap material</strong></td>
+                                    <td>Silicone</td>
+                                </tr>
+                                <tr>
+                                    <td><strong>Lens Material</strong></td>
+                                    <td>Corning Gorilla Glass 3</td>
+                                </tr>
+                                <tr>
+                                    <td><strong>Bezel Material</strong></td>
+                                    <td>Anodized aluminum</td>
+                                </tr>
+                                <tr>
+                                    <td><strong>Physical size</strong></td>
+                                    <td>38 x 38 x 11 mm — fits wrists 110–175 mm</td>
+                                </tr>
+                                <tr>
+                                    <td><strong>Weight</strong></td>
+                                    <td>29 g</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+
+            <div class="accordion-item mb-3">
+                <h2 class="accordion-header">
+                    <button class="accordion-button collapsed fw-bold" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#activityProfiles" aria-expanded="false" aria-controls="activityProfiles">
+                        Activity Profiles
+                    </button>
+                </h2>
+                <div id="activityProfiles" class="accordion-collapse collapse" data-bs-parent="#accordionSpecs">
+                    <div class="accordion-body p-0">
+                        <table class="table table-borderless mb-0">
+                            <tbody>
+                                <tr>
+                                    <td><strong>Gym</strong></td>
+                                    <td>Strength, HIIT, Cardio</td>
+                                </tr>
+                                <tr>
+                                    <td><strong>Wellness</strong></td>
+                                    <td>Walking, Yoga, Meditation</td>
+                                </tr>
+                                <tr>
+                                    <td><strong>Indoor running</strong></td>
+                                    <td>Treadmill Running</td>
+                                </tr>
+                                <tr>
+                                    <td><strong>Outdoor running</strong></td>
+                                    <td>Running</td>
+                                </tr>
+                                <tr>
+                                    <td><strong>Outdoor recreation</strong></td>
+                                    <td>Golfing, Disc Golf</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+
+            <div class="accordion-item mb-3">
+                <h2 class="accordion-header">
+                    <button class="accordion-button collapsed fw-bold" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#clockFeatures" aria-expanded="false" aria-controls="clockFeatures">
+                        Clock Features
+                    </button>
+                </h2>
+                <div id="clockFeatures" class="accordion-collapse collapse" data-bs-parent="#accordionSpecs">
+                    <div class="accordion-body p-0">
+                        <table class="table table-borderless mb-0">
+                            <tbody>
+                                <tr>
+                                    <td><strong>Time/date</strong></td>
+                                    <td>✔</td>
+                                </tr>
+                                <tr>
+                                    <td><strong>GPS Time Sync</strong></td>
+                                    <td>✔</td>
+                                </tr>
+                                <tr>
+                                    <td><strong>Daylight saving</strong></td>
+                                    <td>✔</td>
+                                </tr>
+                                <tr>
+                                    <td><strong>Alarm clock</strong></td>
+                                    <td>✔</td>
+                                </tr>
+                                <tr>
+                                    <td><strong>Stopwatch</strong></td>
+                                    <td>✔</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 
     <footer class="bg-light text-center border-top py-4 mt-auto w-100">
         <div class="container">
